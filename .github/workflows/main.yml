@@ -26,7 +26,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.REPO_ACCESS_TOKEN }}
-        publish_dir: ./reposense-report
+        publish_dir: ./docs
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
         commit_message: Rebuild pages at 
