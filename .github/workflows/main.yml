@@ -27,6 +27,6 @@ jobs:
       with:
         personal_token: ${{ secrets.REPO_ACCESS_TOKEN }}
         publish_dir: ./docs
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
+        user_name: ${{ vars.SERVICE_USER_NAME }}
+        user_email: ${{ vars.SERVICE_USER_EMAIL }}
         commit_message: Rebuild pages at 
