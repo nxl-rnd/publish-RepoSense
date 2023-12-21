@@ -29,4 +29,5 @@ jobs:
         publish_dir: ./docs
         user_name: ${{ vars.SERVICE_USER_NAME }}
         user_email: ${{ vars.SERVICE_USER_EMAIL }}
-        commit_message: Rebuild pages at 
+        commit_message: Rebuild pages at
+        enable_jekyll: true
